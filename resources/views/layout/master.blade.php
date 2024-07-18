@@ -27,6 +27,18 @@
 
 	<!-- SPECIFIC CSS -->
     <link href="css/home_1.css" rel="stylesheet">
+    <link href="css/listing.css" rel="stylesheet">
+    <link href="css/product_page.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
+    <link href="css/account.css" rel="stylesheet">
+    <link href="css/error_track.css" rel="stylesheet">
+    <link href="css/faq.css" rel="stylesheet">
+    <link href="css/leave_review.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
+    
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
@@ -34,16 +46,18 @@
 </head>
 
 <body>
-	<div id="page">
-		
-	@include('layout.navbar')
-	<!-- /header -->
-		
+	
+	<div id="page" class="theia-exception">
 
-    @yield('content')
-	<!-- /main -->
+    @include('layout.navbar')
 		
-	@include('layout.footer')
+	<!-- /header -->
+	
+    @yield('content')
+	
+	<!-- /main -->
+	
+    @include('layout.footer')
 	<!--/footer-->
 	</div>
 	<!-- page -->
@@ -53,13 +67,10 @@
 	<!-- COMMON SCRIPTS -->
     <script src="js/common_scripts.min.js"></script>
     <script src="js/main.js"></script>
-
-	{{-- Default Page Specific Scripts --}}
-    @if (Request::is('/'))
-        <script src="js/carousel-home.min.js"></script>
-    @endif
 	
-
+	<!-- SPECIFIC SCRIPTS -->
+	<script src="js/sticky_sidebar.min.js"></script>
+	<script src="js/specific_listing.js"></script>
 
     {{-- ---------------------Home-------------------------}}
 
@@ -197,9 +208,9 @@
     @endif --}}
 
     {{-- product_Carousel Page Specific Scripts --}}
-    {{-- @if (Request::is('product_Carousel'))
+    @if (Request::is('product_Carousel'))
         <script  src="js/carousel_with_thumbs.js"></script>
-    @endif --}}
+    @endif
 
     {{-- product_StickyInfo Page Specific Scripts --}}
     @if (Request::is('product_StickyInfo'))
@@ -285,6 +296,6 @@
     @if (Request::is('modalNewsletter'))
         <script src="js/carousel-home.js"></script>
     @endif
-
+		
 </body>
 </html>
