@@ -567,5 +567,3 @@
 </main>
 
 @endsection
-
-@section()

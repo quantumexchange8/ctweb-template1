@@ -75,6 +75,10 @@
     {{-- ---------------------Home-------------------------}}
 
 	{{-- Home Page Specific Scripts --}}
+    @if (Request::is('/'))
+        <script src="js/carousel-home.min.js"></script>
+    @endif
+
     @if (Request::is('home'))
         <script src="js/carousel-home.min.js"></script>
     @endif
