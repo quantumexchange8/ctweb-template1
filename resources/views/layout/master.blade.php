@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Ansonika">
-    <title>Current Tech</title>
+    <title>Current Tech Template 1</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="favicon.ico" type="Current Tech">
@@ -38,7 +38,7 @@
     <link href="css/contact.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
     <link href="css/blog.css" rel="stylesheet">
-    
+
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
@@ -125,9 +125,6 @@
 			});
 		</script>
 	@endif
-
-
-
 
     {{-- ---------------------ListingGrid-------------------------}}
 
