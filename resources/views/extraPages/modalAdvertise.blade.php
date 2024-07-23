@@ -560,4 +560,12 @@
     <!-- /container -->
 </main>
 
+<div class="popup_wrapper">
+    <div class="popup_content">
+        <span class="popup_close">Close</span>
+        <a href="listing-grid-1-full.html"><img class="img-fluid" src="img/banner_popup.png" alt="" width="500" height="500"></a>
+    </div>
+</div>
+<!-- Advertise Popup -->
+
 @endsection

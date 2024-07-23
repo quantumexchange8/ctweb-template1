@@ -560,4 +560,39 @@
     <!-- /container -->
 </main>
 
+<div class="popup_wrapper">
+    <div class="popup_content newsletter">
+        <span class="popup_close">Close</span>
+        <div class="row g-0">
+        <div class="col-md-5 d-none d-md-flex align-items-center justify-content-center">
+            <figure><img src="img/newsletter_img.jpg" alt=""></figure>
+        </div>
+        <div class="col-md-7">
+            <div class="content">
+                <div class="wrapper">
+                <img src="img/logo_black.svg" alt="" width="100" height="35">
+                <h3>Sign up our newsletter</h3>
+                <p>Ne qui aliquam probatus moderatius, ad sint cotidieque qui, sea id cetero laoreet principes.</p>
+                 <form action="#">
+                     <div class="form-group">
+                         <input type="email" class="form-control" placeholder="Enter your email address">
+                     </div>
+                    
+                     <button type="submit" class="btn_1 mt-2 mb-4">Subscribe</button>
+                      <div class="form-group">
+                            <label class="container_check d-inline">Don't show this PopUp again
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                 </form>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- row -->
+    </div>
+</div>
+<!-- /Newsletter Popup -->
+
 @endsection

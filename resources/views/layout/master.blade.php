@@ -10,7 +10,7 @@
     <title>Current Tech Template 1</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="favicon.ico" type="Current Tech">
+    <link rel="shortcut icon" href="favicon.ico" type="Current Tech Template 1">
     <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
