@@ -1893,7 +1893,7 @@ hr {
 
 /*General links color*/
 a {
-  color: #004dda;
+  color: #b61e95;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1913,7 +1913,7 @@ a.btn_1,
 .btn_1 {
   border: none;
   color: #fff;
-  background: #004dda;
+  background: #aa38ec;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -1941,7 +1941,7 @@ a.btn_1:focus,
 }
 a.btn_1:hover,
 .btn_1:hover {
-  background-color: #FFC107;
+  background-color: #ec6890;
   color: #111 !important;
 }
 a.btn_1.full-width,
@@ -1980,7 +1980,7 @@ a.btn_1.gray,
 }
 a.btn_1.gray:hover,
 .btn_1.gray:hover {
-  background-color: #FFC107;
+  background-color: #ec6890;
   color: #111 !important;
 }
 a.btn_1 i,
@@ -2355,7 +2355,7 @@ header .sticky_element {
   box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.25);
 }
 
-@keyframes smoothScroll {
+@keyframes smoothScroll {   
   0% {
     transform: translateY(-60px);
   }
@@ -2364,10 +2364,10 @@ header .sticky_element {
   }
 }
 header.version_1 .main_header {
-  background-color: #004dda;
+  background-color: #ffc107;
 }
 header.version_1 .main_header a.phone_top {
-  color: #fff;
+  color: #000000;
 }
 header.version_1 .main_header a.phone_top:before {
   color: #fff;
@@ -2436,7 +2436,7 @@ header.version_1 .main_header ul.top_tools > li .dropdown-access:hover > a {
   }
 }
 header.version_1 .main_nav {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 header.version_1 .main_nav.inner {
   border-bottom: 1px solid #ededed;
@@ -2461,7 +2461,7 @@ header.version_1 .main_nav ul.top_tools > li a.btn_cat_mob:hover .hamburger-inne
   background-color: #004dda;
 }
 header.version_1 .main_nav ul.top_tools > li a.cart_bt strong {
-  background-color: #083487;
+  background-color: #ee1818;
   color: #fff !important;
 }
 header.version_1 .main_nav ul.top_tools > li .dropdown-cart .dropdown-menu,
@@ -2642,11 +2642,11 @@ header.version_2 .search_mob_wp .btn_1:hover {
 }
 
 header.version_1 .main-menu > ul > li > a {
-  color: #fff;
+  color: #000000;
 }
 
 header.version_1 .main-menu > ul > li:hover > a {
-  color: #fff;
+  color: #000000;
 }
 
 .main-menu > ul > li.submenu:hover > a:after {
@@ -2665,7 +2665,7 @@ header.version_1 .main-menu > ul > li:hover > a {
   font-size: 12px;
   font-size: 0.75rem;
   content: "\e64b";
-  color: #fff;
+  color: #000000;
   line-height: 1;
   padding: 0;
   margin: 0 0 0 5px;
@@ -4613,7 +4613,7 @@ body.modal-open .mm-slideout {
   font-size: 36px;
   font-size: 2.25rem;
   margin: 0 20px 0 0;
-  color: #004dda;
+  color: #882072;
 }
 .feat ul li p {
   margin: 0;
@@ -4805,7 +4805,7 @@ body.modal-open .mm-slideout {
   }
 }
 .new_price {
-  color: #004dda;
+  color: #9c181f;
   font-weight: 500;
   font-size: 16px;
   font-size: 1rem;
@@ -5184,22 +5184,22 @@ input.qty2:focus {
   width: 9px;
 }
 .ribbon.new {
-  background-color: #9933cc;
+  background-color: #39c7eb;
 }
 .ribbon.new:before {
-  border-color: #9933cc transparent transparent;
+  border-color: #39c7eb transparent transparent;
 }
 .ribbon.hot {
-  background-color: #0C0;
+  background-color: rgb(235, 50, 50);
 }
 .ribbon.hot:before {
-  border-color: #0C0 transparent transparent;
+  border-color: rgb(235, 50, 50) transparent transparent;
 }
 .ribbon.off {
-  background-color: #F33;
+  background-color: rgb(0, 0, 0);
 }
 .ribbon.off:before {
-  border-color: #F33 transparent transparent;
+  border-color: rgb(0, 0, 0) transparent transparent;
 }
 
 .box_general {
@@ -5215,7 +5215,7 @@ input.qty2:focus {
 }
 
 .bg_gray {
-  background-color: #f8f8f8;
+  background-color: #fff9f1;
 }
 
 /* Checkbox style */
@@ -5237,7 +5237,7 @@ input.qty2:focus {
   cursor: pointer;
 }
 .container_check input:checked ~ .checkmark {
-  background-color: #004dda;
+  background-color: #15b84b;
   border: 1px solid transparent;
 }
 .container_check .checkmark {
@@ -5380,7 +5380,7 @@ input.qty2:focus {
 }
 .styled-select:after {
   font-family: 'themify';
-  color: #ccc;
+  color: #3b3939;
   position: absolute;
   right: 10px;
   top: 0;
@@ -5400,7 +5400,7 @@ input.qty2:focus {
   -moz-box-shadow: none;
   box-shadow: none;
   height: 30px;
-  color: #ccc;
+  color: #3b3939;
   font-size: 12px;
   font-size: 0.75rem;
   margin: 0;
@@ -6337,7 +6337,7 @@ a.social_bt.google:before {
   }
 }
 footer {
-  background-color: #172134;
+  background-color: #ffc107;
   padding: 60px 0 35px 0;
 }
 @media (max-width: 767px) {
@@ -6368,11 +6368,11 @@ footer .contacts ul li {
   padding-left: 35px;
   position: relative;
   margin-bottom: 15px;
-  color: #fff;
+  color: #3b3939;
   opacity: 0.8;
 }
 footer .contacts ul li a {
-  color: #fff;
+  color: #3b3939;
   opacity: 1;
 }
 footer .contacts ul li a:hover {
@@ -6384,7 +6384,7 @@ footer .contacts ul li i {
   position: absolute;
   top: 0;
   left: 0;
-  color: #fff;
+  color: #3b3939;
   line-height: 1;
 }
 footer h3 {
@@ -6396,7 +6396,7 @@ footer h3 {
   -webkit-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
@@ -6436,7 +6436,7 @@ footer .links ul li {
 }
 footer .links ul li a {
   position: relative;
-  color: #fff;
+  color: #3b3939;
   opacity: 0.8;
   display: inline-block;
 }
@@ -6536,7 +6536,7 @@ footer .links ul li a:after {
   -moz-border-radius: 0 3px 3px 0;
   -ms-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
-  background-color: #004dda;
+  background-color: #101113;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -6553,7 +6553,7 @@ footer .links ul li a:after {
   font-size: 16px;
   font-size: 1rem;
   margin: 35px 0 10px 0;
-  color: #fff;
+  color: #3b3939;
 }
 .follow_us ul {
   margin: 0 0 25px 0;
@@ -6626,11 +6626,11 @@ ul.additional_links li:last-child:after {
   content: "";
 }
 ul.additional_links li span {
-  color: #fff;
+  color: #3b3939;
   opacity: 0.8;
 }
 ul.additional_links li a {
-  color: #fff;
+  color: #3b3939;
   opacity: 0.8;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
